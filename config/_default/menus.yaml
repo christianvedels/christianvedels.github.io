@@ -1,7 +1,0 @@
-main:
-  - name: About
-    url: /
-    weight: 10
-  - name: Research
-    url: /#research
-    weight: 20
