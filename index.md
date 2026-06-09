@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Start
-permalink: /
 ---
 
 # Christian Vedel

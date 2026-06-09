@@ -1,7 +1,7 @@
 # Jekyll CV Site
 
 Simple Jekyll workflow:
-- Write content in Markdown files under `pages/`
+- Write content in Markdown files at the repo root
 - Jekyll renders them with the shared layout in `_layouts/`
 - Build output goes to `_site/`
 
@@ -30,17 +30,17 @@ bundle exec jekyll serve
 
 ## Where Things Are
 
-- Source pages: `pages/start.md`, `pages/research.md`, `pages/teaching.md`
+- Source pages: `index.md`, `research.md`, `teaching.md`
 - Shared layout: `_layouts/default.html`
 - Jekyll config: `_config.yml`
 - Output HTML: `_site/`
 
 ## Add PDFs
 
-Put PDFs anywhere under `pages/` (for example `pages/files/CV-2025.pdf`).
+Put PDFs anywhere under the repo root, or keep them in a folder such as `assets/` if you add one.
 Jekyll will copy them into `_site/` with the same folder structure when you build.
 
-Example Markdown link from `pages/start.md`:
+Example Markdown link from `index.md`:
 
 ```markdown
 [Download my CV (PDF)](files/CV-2025.pdf)
