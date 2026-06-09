@@ -7,11 +7,11 @@ markdown: kramdown
 permalink: pretty
 plugins: []
 exclude:
-	- cv.html
-	- cv.md
-	- node_modules
-	- package.json
-	- pnpm-lock.yaml
-	- scripts
-	- site
-	- tools
+  - cv.html
+  - cv.md
+  - node_modules
+  - package.json
+  - pnpm-lock.yaml
+  - scripts
+  - site
+  - tools
