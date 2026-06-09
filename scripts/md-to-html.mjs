@@ -57,6 +57,19 @@ async function buildDirectorySite(inputDir, outputDir) {
     );
   }
 
+  const landingPage = getLandingPage(pages);
+  const landingNavigation = pages.map((item) => ({
+    title: item.title,
+    href: path.relative(outputDir, item.outputFile).replaceAll(path.sep, "/"),
+    isCurrent: item.outputFile === landingPage.outputFile,
+  }));
+  const landingHtml = renderPage(landingPage.markdown, landingNavigation);
+  const landingOutput = path.join(outputDir, "index.html");
+  await fs.writeFile(landingOutput, landingHtml, "utf8");
+  console.log(
+    `Built ${path.relative(process.cwd(), landingOutput)} from ${path.relative(process.cwd(), landingPage.sourceFile)}`,
+  );
+
   for (const file of staticFiles) {
     const relative = path.relative(inputDir, file);
     const target = path.join(outputDir, relative);
@@ -64,6 +77,24 @@ async function buildDirectorySite(inputDir, outputDir) {
     await fs.copyFile(file, target);
     console.log(`Copied ${path.relative(process.cwd(), target)} from ${path.relative(process.cwd(), file)}`);
   }
+}
+
+function getLandingPage(pages) {
+  const byStartName = pages.find((page) =>
+    page.sourceRelative.replaceAll("\\", "/").toLowerCase().endsWith("start.md"),
+  );
+  if (byStartName) {
+    return byStartName;
+  }
+
+  const byIndexName = pages.find((page) =>
+    page.sourceRelative.replaceAll("\\", "/").toLowerCase().endsWith("index.md"),
+  );
+  if (byIndexName) {
+    return byIndexName;
+  }
+
+  return pages[0];
 }
 
 async function buildSingleFile(inputFile, outputFile) {
@@ -287,7 +318,11 @@ async function getMarkdownFiles(dir) {
       if (entry.isDirectory()) {
         return getMarkdownFiles(fullPath);
       }
-      if (entry.isFile() && entry.name.toLowerCase().endsWith(".md")) {
+      if (
+        entry.isFile()
+        && entry.name.toLowerCase().endsWith(".md")
+        && entry.name.toLowerCase() !== "readme.md"
+      ) {
         return [fullPath];
       }
       return [];
