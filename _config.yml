@@ -1,0 +1,17 @@
+title: Christian Vedel
+email: Christian-vs@sam.sdu.dk
+description: Personal research and teaching site
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+plugins: []
+exclude:
+	- cv.html
+	- cv.md
+	- node_modules
+	- package.json
+	- pnpm-lock.yaml
+	- scripts
+	- site
+	- tools

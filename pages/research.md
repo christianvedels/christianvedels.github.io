@@ -1,3 +1,9 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
 # Research
 
 ## A Perfect Storm: First-Nature Geography and Economic Development

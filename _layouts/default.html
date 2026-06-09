@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Christian Vedel</title>
+  <title>{{ page.title | default: site.title }}</title>
   <style>
     :root {
       color-scheme: light;
@@ -159,20 +159,16 @@
 </head>
 <body>
   <main>
-    <nav class="topbar"><div class="menu"><a href="research.html">Research</a><a href="start.html" aria-current="page">Christian Vedel</a><a href="teaching.html">Teaching</a></div></nav>
-    <div class="panels"><h1>Christian Vedel</h1>
-<p>I am an Assistant Professor at the Historical Economics and Development Group (HEDG) at the Department of Economics, University of Southern Denmark.</p>
-<p>I study how geography and institutions shape living conditions, using causal inference and machine learning with historical georeferenced data.</p>
-<p>Email: <a href="mailto:Christian-vs@sam.sdu.dk">Christian-vs@sam.sdu.dk</a></p>
-<section class="panel"><h2>Highlights</h2><ul>
-<li>New Researcher Prize (Economic History Society, 2023)</li>
-<li>Current focus: geography, institutions, and long-run development</li>
-<li>Working at the intersection of economic history and data science</li>
-</ul></section><section class="panel"><h2>Quick Links</h2><ul>
-<li>CV PDF: add your current link here</li>
-<li>GitHub: <a href="https://github.com/christianvedels">https://github.com/christianvedels</a></li>
-<li>Bluesky: add profile link here</li>
-</ul></section></div>
+    <nav class="topbar">
+      <div class="menu">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} aria-current="page"{% endif %}>Start</a>
+        <a href="{{ '/research/' | relative_url }}"{% if page.url contains '/research' %} aria-current="page"{% endif %}>Research</a>
+        <a href="{{ '/teaching/' | relative_url }}"{% if page.url contains '/teaching' %} aria-current="page"{% endif %}>Teaching</a>
+      </div>
+    </nav>
+    <div class="panels">
+      {{ content }}
+    </div>
   </main>
 </body>
 </html>

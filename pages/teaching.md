@@ -1,3 +1,9 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+
 # Teaching
 
 S = Spring semester, F = Fall semester

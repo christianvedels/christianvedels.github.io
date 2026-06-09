@@ -1,8 +1,9 @@
-# Markdown CV Site
+# Jekyll CV Site
 
-Simple multi-page workflow:
+Simple Jekyll workflow:
 - Write content in Markdown files under `pages/`
-- Build HTML files into `site/`
+- Jekyll renders them with the shared layout in `_layouts/`
+- Build output goes to `_site/`
 
 ## Quick Start (PowerShell)
 
@@ -10,10 +11,12 @@ Copy and run:
 
 ```powershell
 Set-Location "D:\Dropbox\Research_projects\Misc\CV\Website\christianvedels.github.io"
-pnpm install
-pnpm run build
-Start-Process .\site\start.html
+bundle install
+bundle exec jekyll build
+bundle exec jekyll serve
 ```
+
+If `bundle` is not found, install Ruby first, then run `gem install bundler jekyll`.
 
 ## Daily Workflow (PowerShell)
 
@@ -21,20 +24,21 @@ After editing Markdown files, rebuild:
 
 ```powershell
 Set-Location "D:\Dropbox\Research_projects\Misc\CV\Website\christianvedels.github.io"
-pnpm run build
-Start-Process .\site\start.html
+bundle exec jekyll build
+bundle exec jekyll serve
 ```
 
 ## Where Things Are
 
 - Source pages: `pages/start.md`, `pages/research.md`, `pages/teaching.md`
-- Build script: `scripts/md-to-html.mjs`
-- Output HTML: `site/*.html`
+- Shared layout: `_layouts/default.html`
+- Jekyll config: `_config.yml`
+- Output HTML: `_site/`
 
 ## Add PDFs
 
 Put PDFs anywhere under `pages/` (for example `pages/files/CV-2025.pdf`).
-When you run `pnpm run build`, non-Markdown files are copied to `site/` with the same folder structure.
+Jekyll will copy them into `_site/` with the same folder structure when you build.
 
 Example Markdown link from `pages/start.md`:
 

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Start
+permalink: /
+---
+
 # Christian Vedel
 
 I am an Assistant Professor at the Historical Economics and Development Group (HEDG) at the Department of Economics, University of Southern Denmark.
