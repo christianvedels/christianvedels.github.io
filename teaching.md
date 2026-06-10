@@ -8,14 +8,14 @@ permalink: /teaching/
 
 S = Spring semester, F = Fall semester
 
-## Recent Courses
+## Current Teaching
 
 - 2026S: Statistics (Intro statistics for economics undergraduates)
 - 2023F-2025F: News and Market Sentiment Analysis (Data science master's NLP course)
 - 2025S: Statistics (Business Administration and European Studies)
 - 2023F-2024S: Microeconomics (Introductory undergraduate course)
 
-## Earlier Teaching
+## Earlier Teaching Experience
 
 - 2022F: Business History (undergraduate)
 - 2020-2022: Tietgen talent track (coordinator and instructor)
@@ -26,10 +26,9 @@ S = Spring semester, F = Fall semester
 
 ## Supervision
 
-- Co-supervision of PhD students
-- Supervision of master's students in Economics, Mathematical Economics, and Data Science
+- Co-supervision of PhD students.
+- Supervision of master's students in Economics, Mathematical Economics, and Data Science.
 
-## Contact
+## Teaching Profile
 
-- Email: Christian-vs@sam.sdu.dk
-- GitHub: https://github.com/christianvedels
+I teach quantitative methods and economic analysis with an applied, data-driven approach focused on reproducible workflows and real-world datasets.
