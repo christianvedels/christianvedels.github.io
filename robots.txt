@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://christianvedels.github.io/sitemap.xml
