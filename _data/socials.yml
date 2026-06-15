@@ -1,0 +1,8 @@
+# social media links and usernames
+# socials are displayed in the order defined here
+# for more information: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/cv.pdf # add your CV PDF to assets/pdf/
+email: Christian-vs@sam.sdu.dk
+github_username: christianvedels
+scholar_userid: # add your Google Scholar ID (found in your Scholar profile URL after ?user=)
+rss_icon: true
