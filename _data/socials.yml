@@ -1,8 +1,8 @@
 # social media links and usernames
 # socials are displayed in the order defined here
 # for more information: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/cv.pdf # add your CV PDF to assets/pdf/
-email: Christian-vs@sam.sdu.dk
+cv_pdf: /cv/cv.pdf # source PDF lives in the repo's cv/ folder (alongside main.tex)
 github_username: christianvedels
+x_username: ChristianVedel
+bluesky_url: https://bsky.app/profile/christianvedel.bsky.social
 scholar_userid: # add your Google Scholar ID (found in your Scholar profile URL after ?user=)
-rss_icon: true

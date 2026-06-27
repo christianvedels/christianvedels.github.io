@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - christianvedels
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - christianvedels/OccCANINE
+  - christianvedels/A_perfect_storm
+  - christianvedels/Tracks_to_modernity
+  - christianvedels/News_and_Market_Sentiment_Analytics
+  - christianvedels/Railways_and_the_happy_Danes
+  - christianvedels/Danish-Church-Records

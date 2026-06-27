@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses taught at the University of Southern Denmark and elsewhere.
 nav: true
 nav_order: 5
