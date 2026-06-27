@@ -51,11 +51,17 @@ Should return the opening HTML of the page (title: "Christian Vedel").
 
 ## Stop
 
+`pkill -f "jekyll serve"` does NOT work here: Jekyll runs as `ruby.exe`, so the
+pattern never matches and old servers pile up as zombies (multiple servers then
+fight over port 4000 and `_site`, causing stale builds). Kill by image name:
+
 ```bash
-kill $JEKYLL_PID
-# or if PID is lost:
-pkill -f "jekyll serve"
+taskkill //F //IM ruby.exe        # kills ALL ruby procs (fine on this box — only jekyll uses ruby)
+tasklist | grep -ic ruby.exe      # confirm 0 remain before restarting
 ```
+
+Before any restart, run the `taskkill` above first, then start a single server.
+If builds look stale, suspect leftover ruby processes — check `tasklist` and kill them.
 
 ## Logs
 
