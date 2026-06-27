@@ -1,0 +1,233 @@
+# Drives the /research/ page (_pages/research.md).
+# stage: one of "Published", "Working papers", "Work in progress" (rendered in that order).
+# Abstracts fetched from arXiv / Crossref / OpenAlex / Semantic Scholar / EHES working papers.
+# Images: mapped from Website/Illustrations where a figure fit; others use the placeholder.
+
+research:
+  # ---------------- Published ----------------
+  - title: "Holy cows and spilled milk: The impact of religious missions on firm-level productivity"
+    stage: Published
+    meta: "Bentzen, Boberg-Fazlić, Sharp, Skovsgaard & Vedel · Journal of Development Economics (2026)"
+    img: /assets/img/research_holy_cows.png
+    url: https://doi.org/10.1016/j.jdeveco.2025.103651
+    abstract: >-
+      Did religious missions influence firm-level productivity? This study examines the impact of the
+      Inner Mission movement on productivity in early twentieth-century Denmark, a predominantly Protestant
+      and homogeneous society undergoing rapid industrialization. Using data on 964 creameries and an
+      instrumental-variables approach, we provide evidence that Inner Mission intensity reduced productivity
+      in butter production, measured by the milk-to-butter ratio. The main mechanisms were Sunday closures,
+      which disrupted economies of scale, and the fragmentation of creameries due to doctrinal disagreements
+      among farmers. The results show how religiosity shaped patterns of modernization absent the usual
+      colonial or missionary confounders, speaking to debates in development economics about how informal
+      institutions and moral regulation can constrain firm behavior and productivity.
+
+  - title: "Ireland in a Danish mirror: A microlevel comparison of the productivity of Danish and Irish creameries before the First World War"
+    stage: Published
+    meta: "McLaughlin, Sharp, Tsoukli & Vedel · Business History 68(3), 596–612 (2026)"
+    img: /assets/img/research_placeholder.svg
+    url: https://doi.org/10.1080/00076791.2025.2486643
+    abstract: >-
+      The relative success of the Danish and failure of the Irish dairy industries before the First World
+      War is often contrasted. The traditional narrative assumes that the Irish failed because they were
+      unsuccessful at adopting cooperative ownership, and that Irish cooperatives were not as efficient as
+      their Danish counterparts, despite having been explicitly modelled on them. This is, however, untested
+      at the firm level. We rectify this through the analysis of a large microlevel database of creameries in
+      both countries over 1898–1903. Using Stochastic Frontier Analysis, we find that Irish creameries were
+      in fact slightly more efficient on average than their Danish counterparts, though with a larger
+      variance — nuancing the idea that the Irish were unable to establish cooperatives successfully.
+
+  - title: "Adaptability, diversification, and energy shocks: A firm level productivity analysis"
+    stage: Published
+    meta: "Henriques, Sharp, Tsoukli & Vedel · Energy Economics 139, 107887 (2024)"
+    img: /assets/img/research_energy_shocks.png
+    url: https://doi.org/10.1016/j.eneco.2024.107887
+    abstract: >-
+      Energy economists have long argued that energy systems need to be adaptable in the face of shocks. In
+      the early twentieth century, Denmark embodied the opposite, with its industry almost entirely dependent
+      on imports of coal from the UK. Towards the end of the First World War and into the 1920s, coal imports
+      became expensive and harder to obtain, but local diversification was possible through peat. We exploit
+      detailed microlevel data from butter factories covering 1900–28. Employing an event-study approach, we
+      find significant productivity advantages for firms closer to available peat fields in the wake of the
+      coal shortage, and that these gains persisted even when peat was no longer used. The results suggest
+      that public policy might aim to support adaptability for firms less able to transition to more
+      sustainable energy.
+
+  - title: "A Microlevel Analysis of Danish Dairy Cooperatives: Opportunities for Large Data in Business History"
+    stage: Published
+    meta: "Sharp, Henriques, McLaughlin, Tsoukli & Vedel · Enterprise & Society, 1–29 (2023)"
+    img: /assets/img/research_placeholder.svg
+    url: https://doi.org/10.1017/eso.2023.5
+    abstract: >-
+      We contribute to the argument for a “new” business history employing a quantitative approach,
+      illustrating the opportunities from a novel microlevel longitudinal database comprising 131 variables
+      for 1,419 cooperative creameries in Denmark over 1898–1945, which we also document and make available
+      to the scholarly community. We present a number of applications of the data, including investigating
+      regional productivity differences, expenditure on fire insurance, and survivorship and reporting biases.
+
+  - title: "A Firm Level Database of Irish Creameries, 1897–1921"
+    stage: Published
+    meta: "McLaughlin, Sharp, Tsoukli & Vedel · Irish Economic and Social History (2023)"
+    img: /assets/img/research_irish_db.png
+    url: https://doi.org/10.1177/03324893231161927
+    abstract: >-
+      We present a microlevel database of Irish cooperative creameries covering 1897–1921, hand-collected
+      from the annual reports of the Irish Agricultural Organisation Society (IAOS), containing information
+      from 531 creameries across 49 variables. Our initial analysis finds considerable heterogeneity in
+      productivity as measured by the milk/butter ratio. Focusing on the four historical provinces, we find
+      that the south of Ireland — the historical centre of butter production — was on average less productive
+      than the north at the start of the period, though this changes after 1913 when Ulster becomes the least
+      productive province.
+
+  # ---------------- Working papers ----------------
+  - title: "A Perfect Storm: First-Nature Geography and Economic Development"
+    stage: Working papers
+    meta: "Vedel · Job market paper · EHES WP 262 · Winner, EHS New Researcher Prize 2023"
+    img: /assets/img/research_perfect_storm.png
+    url: /projects/perfect_storm/
+    abstract: >-
+      First-nature geography shapes the location of prosperity. I provide evidence by investigating the
+      effects when it suddenly changes. In 1825 a storm breached the Agger Isthmus, connecting Denmark's
+      west Limfjord region to the North Sea. I demonstrate that trade followed, and prosperity relocated with
+      it: population rose 27 percent within a generation — an elasticity of 1.6 relative to market access —
+      with occupational shifts toward fishing and manufacturing. Fertility, not migration, drove the
+      expansion. A mirror experiment, the waterway's closure circa 1086–1208, caused symmetric declines in
+      medieval coin and building finds.
+
+  - title: "Breaking the HISCO Barrier: Automatic Occupational Standardization with OccCANINE"
+    stage: Working papers
+    meta: "Dahl, Johansen & Vedel · EHES WP 255 · Under review, Explorations in Economic History"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/occanine/
+    abstract: >-
+      OccCANINE is an open-source tool that maps occupational descriptions to HISCO codes, replacing weeks of
+      manual coding with results in minutes. We fine-tune CANINE on 15.8 million description–code pairs from
+      29 sources in 13 languages, achieving 96 percent accuracy, precision, and recall. The approach
+      generalizes to three further systems — OCC1950, OCCICEM, and ISCO-68 — all released open source. By
+      breaking the “HISCO barrier,” OccCANINE democratizes access to high-quality occupational coding,
+      enabling broader research in economics, economic history, and related disciplines.
+
+  - title: "Tracks to Modernity: Railroads, Growth, and Social Movements in Denmark"
+    stage: Working papers
+    meta: "Görges, Rove, Sharp & Vedel · 2nd R&R, European Review of Economic History"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/tracks_to_modernity/
+    abstract: >-
+      We examine how railway expansion shaped Denmark's nineteenth-century economic transformation and the
+      diffusion of civic engagement in the form of Grundtvigian institutions. Using a new parish-level panel
+      (1,589 parishes) and a difference-in-differences design that accounts for staggered adoption, we find
+      that railroad connection increased local population by about 7 percent, driven in part by higher
+      internal in-migration, and accelerated structural change. Rail access also raised the probability that
+      a parish hosted a folk high school and increased the local densities of folk high schools and community
+      houses. Market access was thus not only a driver of economic modernization but also a catalyst for
+      institutional and cultural transformation.
+
+  - title: "Physical Memories of the Past and Support for the Far-Right: Evidence from Inter-War Denmark"
+    stage: Working papers
+    meta: "Aaskoven & Vedel · EHES WP 295"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/nazis_and_vikings/
+    abstract: >-
+      A growing literature concerns the role of symbolic politics, including how political parties benefit
+      electorally from politicizing the past — a strategy that should be more effective in localities with
+      physical memories of the past. We test this by studying the effect of the local concentration of
+      pre-Christian monuments on electoral support for the Danish Nazi Party — a far-right party that relied
+      heavily on the symbols of Denmark's pre-Christian past — in parliamentary elections 1935–1943. In
+      contrast to the proposed argument, we find no evidence that localities with more pre-Christian monuments
+      saw greater support for the Nazi Party, hinting at the limits of symbolic politics and pointing to the
+      scope conditions for the political effects of physical memories as a fruitful avenue for future research.
+
+  - title: "Milk Wars: Cooperation, Contestation, Conflict and the Irish War of Independence"
+    stage: Working papers
+    meta: "McLaughlin, Sharp, Skovsgaard & Vedel · EHES WP 272"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/creameries/
+    abstract: >-
+      Agricultural cooperation is seen as a way to solve collective action problems and has been associated
+      with high social capital. But what if it comes into conflict with existing private concerns? The Irish
+      dairy cooperatives from the 1890s entered a contested market for milk and soon became associated with
+      conflict: legal disputes and physical violence. We hypothesize that this led to poor social capital,
+      manifesting in conflict during the Irish War of Independence. Analyzing novel data on cooperative and
+      private creameries alongside measures of conflict, we find a significant positive correlation between
+      the presence of cooperatives and local conflict intensities, robust to confounders and validated by an
+      instrumental-variable approach. Cooperation might thus both reflect social capital and have pernicious
+      impacts on it.
+
+  - title: "Assimilate for God: The Impact of Religious Divisions on Danish American Communities"
+    stage: Working papers
+    meta: "Bentzen, Boberg-Fazlić, Sharp, Skovsgaard & Vedel · EHES WP 253"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/assimilation/
+    abstract: >-
+      The cultural assimilation of immigrants is often equated with prospects for economic success, with
+      religion seen as a potential barrier. We investigate the role of ethnic enclaves and churches for the
+      assimilation of Danish Americans using a difference-in-differences setting. Following the ordination of
+      a divisive religious figure in 1883, this otherwise homogeneous group split into rival Lutheran camps —
+      the “Happy” and “Holy” Danes — the former seeking to preserve Danish culture, the latter encouraging
+      assimilation. Using the US census and Danish American church and newspaper archives, we find that
+      Danish Americans in a county with a “Happy” church chose more Danish names for their children, while
+      newspapers read by “Holy Danes” saw faster Anglicization. Religious beliefs thus facilitated
+      assimilation, with divergence emerging only after the division.
+
+  # ---------------- Work in progress ----------------
+  - title: "Næringsfrihed"
+    stage: Work in progress
+    meta: "DFF2-funded (with Casper Worm Hansen & Asger Mose Wingender)"
+    img: /assets/img/research_naeringsfrihed.png
+    url: /projects/naeringsfrihed/
+    abstract: >-
+      A DFF2-funded project studying economic freedom and development in Danish history, applying OccCANINE
+      and CHAOS to new archival sources.
+
+  - title: "CHAOS"
+    stage: Work in progress
+    meta: "Early results; presenting at conferences"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/chaos/
+    abstract: >-
+      Converting occupational classifications into continuous income estimates — formalizing and scaling what
+      economic historians have done informally for decades.
+
+  - title: "Copenhagen Income Project"
+    stage: Work in progress
+    meta: "Data digitization underway"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/copenhagen_incomes/
+    abstract: >-
+      Reconstructing income distributions and inequality in 19th-century Copenhagen from records never before
+      analyzed at scale.
+
+  - title: "Parish Tax Records and Inequality"
+    stage: Work in progress
+    meta: "Data ready; paper at early stage"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/parish_tax/
+    abstract: >-
+      The first-ever Gini coefficient for Copenhagen, reconstructed from parish tax records using OccCANINE
+      and CHAOS.
+
+  - title: "Human Capital in the Nordic Countries (HCNC)"
+    stage: Work in progress
+    meta: "Ongoing data supervision"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/hcnc/
+    abstract: >-
+      Data infrastructure for occupational standardization across the Nordic countries — applying OccCANINE
+      at the regional level.
+
+  - title: "Mapping Medieval Population"
+    stage: Work in progress
+    meta: "Pipeline / data work"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/medieval_population/
+    abstract: >-
+      A machine-learning approach to recovering previously unobservable medieval population density from
+      indirect historical signals.
+
+  - title: "Machine Learning in Economic History"
+    stage: Work in progress
+    meta: "Drafting"
+    img: /assets/img/research_placeholder.svg
+    url: /projects/ml_in_eh/
+    abstract: >-
+      An opinionated literature review from the frontier — mapping what machine learning can and cannot do
+      for economic history, and charting the research agenda.

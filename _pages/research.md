@@ -7,34 +7,39 @@ nav_order: 2
 description:
 ---
 
-<!-- _pages/research.md -->
+<!-- _pages/research.md — cards are driven by _data/research.yml -->
 
-## Peer-reviewed publications
-
-- **[Holy cows and spilled milk: The impact of religious missions on firm-level productivity](https://doi.org/10.1016/j.jdeveco.2025.103651)** (2026). Bentzen, J. S., Boberg-Fazlić, N., Sharp, P., Skovsgaard, C. V., & Vedel, C. *Journal of Development Economics*, 179, 103651.
-- **[Ireland in a Danish mirror: A microlevel comparison of the productivity of Danish and Irish creameries before the First World War](https://doi.org/10.1080/00076791.2025.2486643)** (2026). McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C. *Business History*, 68(3), 596–612.
-- **[Adaptability, diversification, and energy shocks: A firm level productivity analysis](https://doi.org/10.1016/j.eneco.2024.107887)** (2024). Henriques, S. T., Sharp, P., Tsoukli, X., & Vedel, C. *Energy Economics*, 139, 107887.
-- **[A Microlevel Analysis of Danish Dairy Cooperatives: Opportunities for Large Data in Business History](https://doi.org/10.1017/eso.2023.5)** (2023). Sharp, P., Henriques, S., McLaughlin, E., Tsoukli, X., & Vedel, C. *Enterprise & Society*, 1–29.
-- **[A Firm Level Database of Irish Creameries, 1897–1921](https://doi.org/10.1177/03324893231161927)** (2023). McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C. *Irish Economic and Social History*.
-
-## Working papers
-
-<div class="projects">
-  <div class="row row-cols-1 row-cols-md-3">
-    {% assign working_papers = site.projects | where: "stage", "Working papers" | sort: "importance" %}
-    {% for project in working_papers %}
-      {% include projects.liquid %}
-    {% endfor %}
+<div class="research-list">
+{% assign stages = "Published,Working papers,Work in progress" | split: "," %}
+{% for stage in stages %}
+  {% assign items = site.data.research.research | where: "stage", stage %}
+  {% if items.size > 0 %}
+  <h2 id="{{ stage | slugify }}" class="mt-4">{{ stage }}</h2>
+  {% for item in items %}
+  <div class="card" style="margin: 1rem 0; overflow: hidden;">
+    <div style="display: flex; flex-wrap: wrap;">
+      <div style="flex: 0 0 220px; max-width: 220px;">
+        <img
+          src="{{ item.img | relative_url }}"
+          alt="{{ item.title | escape }}"
+          loading="lazy"
+          style="width: 100%; height: 100%; min-height: 150px; object-fit: cover;"
+        />
+      </div>
+      <div style="flex: 1 1 320px;">
+        <div class="card-body">
+          <h5 class="card-title" style="margin-bottom: 0.25rem;">
+            <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title }}</a>
+          </h5>
+          {% if item.meta %}
+            <p class="card-text" style="opacity: 0.7; font-size: 0.85rem; margin-bottom: 0.5rem;">{{ item.meta }}</p>
+          {% endif %}
+          <p class="card-text" style="margin-bottom: 0;">{{ item.abstract }}</p>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
-## Work in progress
-
-<div class="projects">
-  <div class="row row-cols-1 row-cols-md-3">
-    {% assign work_in_progress = site.projects | where: "stage", "Work in progress" | sort: "importance" %}
-    {% for project in work_in_progress %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
+  {% endfor %}
+  {% endif %}
+{% endfor %}
 </div>
