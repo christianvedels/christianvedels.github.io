@@ -4,6 +4,7 @@ title: A Perfect Storm
 description: Causal effects of geography on long-run prosperity — prize-winning natural experiment exploiting a storm-created waterway in 1825 Denmark.
 importance: 1
 category: Geography & Prosperity
+stage: "Working papers"
 related_publications: true
 ---
 

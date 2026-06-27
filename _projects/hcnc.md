@@ -4,6 +4,7 @@ title: Human Capital in the Nordic Countries (HCNC)
 description: Data infrastructure for occupational standardization across Nordic countries — applying OccCANINE at the regional level.
 importance: 7
 category: Measurement & Methods
+stage: "Work in progress"
 ---
 
 **Status:** Active — ad hoc data supervision; delivering HISCO codes as clean occupational data arrives

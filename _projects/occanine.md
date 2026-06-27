@@ -4,6 +4,7 @@ title: OccCANINE
 description: A finetuned language model for automatic HISCO occupational classification — trained on 14 million records in 13 languages. Under review at Explorations in Economic History.
 importance: 3
 category: Measurement & Methods
+stage: "Working papers"
 related_publications: true
 ---
 

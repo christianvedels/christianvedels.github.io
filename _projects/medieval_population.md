@@ -4,6 +4,7 @@ title: Mapping Medieval Population
 description: An ML approach to recovering previously unobservable medieval population density from indirect historical signals.
 importance: 6
 category: Measurement & Methods
+stage: "Work in progress"
 ---
 
 **Status:** In progress (pipeline/data work; co-author actively working)

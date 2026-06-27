@@ -4,6 +4,7 @@ title: Copenhagen Income Project
 description: Reconstructing income distributions and inequality in 19th-century Copenhagen from records never before analyzed at scale.
 importance: 11
 category: Historical Data
+stage: "Work in progress"
 ---
 
 **Status:** Active — data digitization running

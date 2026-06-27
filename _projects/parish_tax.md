@@ -4,6 +4,7 @@ title: Parish Tax Records and Inequality
 description: First-ever Gini coefficient for Copenhagen, reconstructed from parish tax records using OccCANINE and CHAOS.
 importance: 12
 category: Historical Data
+stage: "Work in progress"
 ---
 
 **Status:** Active — data ready, paper at early stage

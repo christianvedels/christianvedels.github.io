@@ -4,6 +4,7 @@ title: Næringsfrihed
 description: DFF2-funded project studying economic freedom and development in Danish history, applying OccCANINE and CHAOS to new archival sources.
 importance: 13
 category: Historical Data
+stage: "Work in progress"
 ---
 
 **Status:** Active — **DFF2 funded** (announced 2026-04-21). Planning underway with Casper Worm Hansen and Asger Mose Wingender.

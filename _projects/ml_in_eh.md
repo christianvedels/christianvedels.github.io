@@ -4,6 +4,7 @@ title: Machine Learning in Economic History
 description: An opinionated literature review from the frontier — mapping what ML can and cannot do for economic history, and charting the research agenda.
 importance: 5
 category: Measurement & Methods
+stage: "Work in progress"
 ---
 
 **Status:** Active — drafting

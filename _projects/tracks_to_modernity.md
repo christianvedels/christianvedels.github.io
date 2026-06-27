@@ -4,6 +4,7 @@ title: Tracks to Modernity
 description: How railway expansion shaped economic development and civic institutions in 19th-century Denmark. Second R&R at Economic History Review.
 importance: 2
 category: Geography & Prosperity
+stage: "Working papers"
 ---
 
 **Status:** 2nd R&R at *Economic History Review* (received 2026-04-22)

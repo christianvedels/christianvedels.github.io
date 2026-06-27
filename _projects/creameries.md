@@ -4,6 +4,7 @@ title: Creameries, Conflict, and Institutions
 description: How religion, energy shocks, and geography shaped industrial productivity in Danish and Irish creameries. Firm-level causal analysis.
 importance: 8
 category: Institutions
+stage: "Working papers"
 ---
 
 **Status:** Active — co-authored

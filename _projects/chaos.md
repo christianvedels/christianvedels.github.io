@@ -4,6 +4,7 @@ title: CHAOS
 description: Converting occupational classifications into continuous income estimates — formalizing and scaling what economic historians have done informally for decades.
 importance: 4
 category: Measurement & Methods
+stage: "Work in progress"
 ---
 
 **Status:** Active — early results, presenting at conferences

@@ -1,18 +1,44 @@
 ---
 layout: page
-title: Research statement
+title: Research
 permalink: /research/
-description:
 nav: true
 nav_order: 2
+description: >-
+  Everything here is a publication — or on its way to becoming one: peer-reviewed
+  work that is out, working papers under review, and projects still in progress.
 ---
 
-I build machine learning tools and large-scale historical datasets to recover lost economic measurements from the past, and use them — alongside causal inference methods — to understand how geography and institutions shape prosperity. History is the only place where the world looks different enough to shed light on potential disruptions ahead.
+<!-- _pages/research.md -->
 
-My prize-winning paper, *A Perfect Storm*, exemplifies the approach. It exploits two natural experiments — a waterway created by a storm in 1825 and one closed between 1086 and 1208 — to estimate the causal effect of geography on prosperity, tracing effects on trade, fertility, and occupational structure across generations. The paper won the **New Researcher Prize** at the Economic History Society's conference in 2023.
+Everything I work on is, in the end, a publication — or on its way to becoming one. What follows is peer-reviewed work that is out, working papers that are circulating and under review, and projects still taking shape.
 
-Building the tools to do this kind of work is as central to my research agenda as the questions themselves. [OccCANINE](https://arxiv.org/abs/2402.13604) — a finetuned language model for automatic occupational standardization, trained on 14 million records in 13 languages — has been adopted by researchers across economics, economic history, and related disciplines and is rapidly becoming a field standard. CHAOS extends this work to continuous income estimates, formalizing and expanding what economic historians have done informally for decades. The Copenhagen Income project applies the full stack — large-scale digitization, OccCANINE, and CHAOS — to reconstruct income distributions and inequality in 19th-century Denmark from records that have never before been analyzed at scale.
+## Peer-reviewed publications
 
-Beyond geography, I use natural experiments and causal designs to study how institutions shape economic outcomes. *Tracks to Modernity* examines how railway expansion shaped economic development and the emergence of civic institutions in Denmark. A cluster of papers on Danish and Irish creameries uses firm-level data and causal methods to show how religion, energy shocks, and geography shaped industrial productivity.
+- **[Holy cows and spilled milk: The impact of religious missions on firm-level productivity](https://doi.org/10.1016/j.jdeveco.2025.103651)** (2026). Bentzen, J. S., Boberg-Fazlić, N., Sharp, P., Skovsgaard, C. V., & Vedel, C. *Journal of Development Economics*, 179, 103651.
+- **[Ireland in a Danish mirror: A microlevel comparison of the productivity of Danish and Irish creameries before the First World War](https://doi.org/10.1080/00076791.2025.2486643)** (2026). McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C. *Business History*, 68(3), 596–612.
+- **[Adaptability, diversification, and energy shocks: A firm level productivity analysis](https://doi.org/10.1016/j.eneco.2024.107887)** (2024). Henriques, S. T., Sharp, P., Tsoukli, X., & Vedel, C. *Energy Economics*, 139, 107887.
+- **[A Microlevel Analysis of Danish Dairy Cooperatives: Opportunities for Large Data in Business History](https://doi.org/10.1017/eso.2023.5)** (2023). Sharp, P., Henriques, S., McLaughlin, E., Tsoukli, X., & Vedel, C. *Enterprise & Society*, 1–29.
+- **[A Firm Level Database of Irish Creameries, 1897–1921](https://doi.org/10.1177/03324893231161927)** (2023). McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C. *Irish Economic and Social History*.
 
-What drives all of it is a simple conviction: we are born into a world with radically limited knowledge of the social cosmos, and the historical record is where much of that knowledge hides. Right now, I am the first person ever to see a Gini coefficient for Copenhagen in 1878. That — being first to glimpse something real that was always there but never seen — is, to me, one of the great privileges of this work.
+## Working papers
+
+<div class="projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% assign working_papers = site.projects | where: "stage", "Working papers" | sort: "importance" %}
+    {% for project in working_papers %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
+
+## Work in progress
+
+<div class="projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% assign work_in_progress = site.projects | where: "stage", "Work in progress" | sort: "importance" %}
+    {% for project in work_in_progress %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>

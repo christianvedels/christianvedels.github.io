@@ -4,6 +4,7 @@ title: Physical Memories and Far-Right Mobilization
 description: Why didn't Denmark go far-right? A study of scope conditions for far-right mobilization using historical monuments and Viking heritage sites.
 importance: 9
 category: Institutions
+stage: "Working papers"
 ---
 
 **Status:** Active — rejected at JHPE, being reframed. Meeting with co-author June 2026.

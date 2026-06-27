@@ -4,6 +4,7 @@ title: Assimilation and Religious Divisions
 description: How religious divisions shaped assimilation outcomes — evidence from large-scale historical census data.
 importance: 10
 category: Institutions
+stage: "Working papers"
 ---
 
 **Status:** Active — co-authored (nothing currently on my table)
