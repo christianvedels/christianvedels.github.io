@@ -4,14 +4,10 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 2
-description: >-
-  Everything here is a publication — or on its way to becoming one: peer-reviewed
-  work that is out, working papers under review, and projects still in progress.
+description:
 ---
 
 <!-- _pages/research.md -->
-
-Everything I work on is, in the end, a publication — or on its way to becoming one. What follows is peer-reviewed work that is out, working papers that are circulating and under review, and projects still taking shape.
 
 ## Peer-reviewed publications
 
