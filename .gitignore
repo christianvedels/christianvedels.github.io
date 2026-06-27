@@ -11,8 +11,7 @@ _site
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
 al-folio-upgrade-report.md
-TODO.md
-some_writing_sample/
+not-public/
 node_modules/
 output/playwright/
 test-results/

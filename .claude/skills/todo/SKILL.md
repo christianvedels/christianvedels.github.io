@@ -8,9 +8,9 @@ The user wants to jot something down to come back to **later**, NOT have it done
 
 ## File
 
-`TODO.md` at the repo root: `D:/Dropbox/Research_projects/Misc/CV/Website/christianvedels.github.io/TODO.md`
+`not-public/TODO.md`: `D:/Dropbox/Research_projects/Misc/CV/Website/christianvedels.github.io/not-public/TODO.md`
 
-It is gitignored (see `.gitignore`), so it never gets committed.
+It lives in the gitignored `not-public/` folder (local-only working files), so it never gets committed.
 
 ## Behavior
 
