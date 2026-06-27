@@ -207,6 +207,7 @@ include: ["_pages"]
 exclude:
   - al-folio-upgrade-report.md
   - bin/
+  - some_writing_sample/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
