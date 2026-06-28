@@ -27,5 +27,12 @@ S = Spring semester, F = Fall semester
 
 ## Supervision
 
-- Co-supervision of PhD students
-- Supervision of master's students in Economics, Mathematical Economics, and Data Science
+**PhD students**
+
+- 2024–2027 — Maret Anne Grapengeter, co-supervisor (University of Oslo)
+
+**Master's theses**
+
+- Economics (2025): Lea Lundberg Yssing, Sharmin Ather Keya
+- Mathematical Economics (2026): Katrine Enghoff Olsen, Lajza Prekazi
+- Data Science: Frederikke Buchsti Hermansen, Christoffer Johan Meilby Nobel, Rune Dissing Bjerring (2026); Lukas Rask Svendsen (2025)
