@@ -32,10 +32,14 @@ description:
 </div>
 
 <script>
-  // Make each entry title a link to its best target: DOI > PDF > Slides.
-  // (published -> DOI, working papers -> PDF, work-in-progress -> Slides.)
+  // (1) Relabel "Code" buttons as "GitHub".
+  // (2) Make each entry title a link to its best target: DOI > PDF > Slides
+  //     (published -> DOI, working papers -> PDF, work-in-progress -> Slides).
   (function () {
-    function linkTitles() {
+    function enhance() {
+      document.querySelectorAll(".links a").forEach(function (a) {
+        if (a.textContent.trim() === "Code") a.textContent = "GitHub";
+      });
       document.querySelectorAll(".publications .row").forEach(function (row) {
         var title = row.querySelector(".title");
         if (!title || title.querySelector("a")) return;
@@ -54,9 +58,9 @@ description:
       });
     }
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", linkTitles);
+      document.addEventListener("DOMContentLoaded", enhance);
     } else {
-      linkTitles();
+      enhance();
     }
   })();
 </script>

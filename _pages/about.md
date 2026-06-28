@@ -32,3 +32,19 @@ I am interested in expanding our knowledge of how geography and institutions sha
 In 2023, I received the **New Researcher Prize** from the Economic History Society for my paper *A Perfect Storm*. History is the only place where the world looks different enough to shed light on potential disruptions ahead.
 
 → [Research statement](/research/)
+
+<script>
+  // Relabel "Code" buttons as "GitHub" in the selected-publications list.
+  (function () {
+    function relabel() {
+      document.querySelectorAll(".links a").forEach(function (a) {
+        if (a.textContent.trim() === "Code") a.textContent = "GitHub";
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", relabel);
+    } else {
+      relabel();
+    }
+  })();
+</script>
