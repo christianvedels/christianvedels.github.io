@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-I am an Assistant Professor in economic history at the University of Southern Denmark, on a fixed-term, non-tenure-track contract. I am **currently on the job market** and open to positions across Europe and North America.
+I am an Assistant Professor in economic history at the University of Southern Denmark, on a fixed-term, non-tenure-track contract. I am **currently on the job market** and open to positions worldwide.
 
 I am interested in expanding our knowledge of how geography and institutions shape living conditions. I build machine learning tools and large-scale historical datasets to recover lost economic measurements from the past, using causal inference and machine learning on large amounts of historical georeferenced data.
 

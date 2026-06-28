@@ -5,7 +5,7 @@ date: 2026-06-29
 description: I am on the 2026 job market — a few reflections on what I work on, why, and where it is going.
 ---
 
-I am on the 2026 job market, open to positions across Europe and North America. What follows is less a formal research statement than a few honest reflections on what I work on, why it grips me, and where it is going.
+I am on the 2026 job market, open to positions worldwide. What follows is less a formal research statement than a few honest reflections on what I work on, why it grips me, and where it is going.
 
 My research starts from a simple premise: as economists, our real job is a kind of map-making. Explorers long ago charted every inch of the physical globe, but the social world is still obscured in empirical mist. Much of what we would like to know about how poor places become rich is limited not by theory but by what we can *measure* — and a surprising amount of that missing knowledge is sitting in the historical record, waiting to be read.
 
