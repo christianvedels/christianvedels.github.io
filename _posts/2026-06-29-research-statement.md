@@ -19,8 +19,6 @@ Geography is only half the story; I am just as interested in institutions. *Trac
 
 Where this is going is toward bigger data and longer horizons. The Copenhagen Tax Book project[^6] digitizes 2.1 million individual records to reconstruct income and wealth inequality in a single city across the late nineteenth and early twentieth centuries — as I write this, I am fairly sure I am the first person ever to look at a Gini coefficient for Copenhagen in 1878. A new project funded by the Independent Research Fund Denmark will extend that kind of measurement to all of Denmark across 250 years.
 
-What drives all of it is a simple conviction: we are born into a world we have barely measured, and much of what we are missing is hidden in the historical record. Recovering even a little of it — being the first to see something that was always there but never seen — is one of the real privileges of this work. And it reaches beyond the past: history is the only place where the world looks different enough to shed light on the changes still ahead.
-
 [^1]: [A Perfect Storm: First-Nature Geography and Economic Development](https://arxiv.org/abs/2408.00885) — my job market paper; winner of the Economic History Society's New Researcher Prize (2023).
 [^2]: [Breaking the HISCO Barrier: Automatic Occupational Standardization with OccCANINE](https://arxiv.org/abs/2402.13604) — with Christian Møller Dahl and Torben Johansen.
 [^3]: [CHAOS: Converting Historical Accounts into Occupational Scores](https://christianvedels.github.io/Presentations/CHAOS/Slides_CC.html) (slides) — with Matthew Curtis, Torben Johansen, and Julius Koschnick.
