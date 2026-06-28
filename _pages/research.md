@@ -30,3 +30,33 @@ description:
 <div class="publications">
   {% bibliography --query @*[stage=wip] --group_by none %}
 </div>
+
+<script>
+  // Make each entry title a link to its best target: DOI > PDF > Slides.
+  // (published -> DOI, working papers -> PDF, work-in-progress -> Slides.)
+  (function () {
+    function linkTitles() {
+      document.querySelectorAll(".publications .row").forEach(function (row) {
+        var title = row.querySelector(".title");
+        if (!title || title.querySelector("a")) return;
+        var hrefs = {};
+        row.querySelectorAll(".links a[href]").forEach(function (a) {
+          hrefs[a.textContent.trim()] = a.getAttribute("href");
+        });
+        var target = hrefs["DOI"] || hrefs["PDF"] || hrefs["Slides"];
+        if (!target || target === "#") return;
+        var link = document.createElement("a");
+        link.href = target;
+        link.style.color = "inherit";
+        while (title.firstChild) link.appendChild(title.firstChild);
+        title.appendChild(link);
+        title.style.cursor = "pointer";
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", linkTitles);
+    } else {
+      linkTitles();
+    }
+  })();
+</script>
