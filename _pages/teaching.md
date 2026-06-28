@@ -29,7 +29,3 @@ S = Spring semester, F = Fall semester
 
 - Co-supervision of PhD students
 - Supervision of master's students in Economics, Mathematical Economics, and Data Science
-
-## Teaching Profile
-
-I teach quantitative methods and economic analysis with an applied, data-driven approach focused on reproducible workflows and real-world datasets.
