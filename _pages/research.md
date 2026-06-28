@@ -21,6 +21,11 @@ description:
   {% bibliography --query @*[stage=wp] --group_by none %}
 </div>
 
+<h2 id="funded-projects" class="mt-4">Funded projects</h2>
+<div class="publications">
+  {% bibliography --query @*[stage=funded] --group_by none %}
+</div>
+
 <h2 id="work-in-progress" class="mt-4">Work in progress</h2>
 <div class="publications">
   {% bibliography --query @*[stage=wip] --group_by none %}
