@@ -66,28 +66,39 @@ jobs:
       - name: Install JS deps 📦
         run: npm ci
 
+      - name: Build site 🏗️
+        run: bundle exec jekyll build
+
       - name: Run style contract lint 🧷
+        if: ${{ hashFiles('test/style_contract.js') != '' }}
         run: npm run lint:style-contract
 
       - name: Install build prerequisites 🔧
+        if: ${{ hashFiles('test/integration_*.sh') != '' }}
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
 
       - name: Run comments integration test 🧪
+        if: ${{ hashFiles('test/integration_comments.sh') != '' }}
         run: bash test/integration_comments.sh
 
       - name: Run plugin toggle integration test 🔌
+        if: ${{ hashFiles('test/integration_plugin_toggles.sh') != '' }}
         run: bash test/integration_plugin_toggles.sh
 
       - name: Run distill integration test 📄
+        if: ${{ hashFiles('test/integration_distill.sh') != '' }}
         run: bash test/integration_distill.sh
 
       - name: Run bootstrap compatibility integration test 🧩
+        if: ${{ hashFiles('test/integration_bootstrap_compat.sh') != '' }}
         run: bash test/integration_bootstrap_compat.sh
 
       - name: Run upgrade CLI integration test ⬆️
+        if: ${{ hashFiles('test/integration_upgrade_cli.sh') != '' }}
         run: bash test/integration_upgrade_cli.sh
 
       - name: Run CSS minify integration test 🎨
+        if: ${{ hashFiles('test/integration_css_minify.sh') != '' }}
         run: bash test/integration_css_minify.sh
