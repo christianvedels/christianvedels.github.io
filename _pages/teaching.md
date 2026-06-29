@@ -11,13 +11,13 @@ S = Spring semester, F = Fall semester
 
 ## Current Teaching
 
-- **2026S** — Statistics (Intro statistics for economics undergraduates) · <a href="https://github.com/christianvedels/Introductory_statistics"><i class="fa-brands fa-github"></i> open-source materials</a>
-- **2023F–2025F** — News and Market Sentiment Analysis (Data science master's NLP course) · <a href="https://github.com/christianvedels/News_and_Market_Sentiment_Analytics"><i class="fa-brands fa-github"></i> open-source materials</a>
-- **2025S** — Statistics (Business Administration and European Studies)
-- **2023F–2024S** — Microeconomics (Introductory undergraduate course)
+- **2026S, 2027S** — Statistics (Intro statistics for economics undergraduates) · <a href="https://github.com/christianvedels/Introductory_statistics"><i class="fa-brands fa-github"></i> open-source materials</a>
+- **2023F–2026F** — News and Market Sentiment Analysis (Data science master's NLP course) · <a href="https://github.com/christianvedels/News_and_Market_Sentiment_Analytics"><i class="fa-brands fa-github"></i> open-source materials</a>
 
 ## Earlier Teaching Experience
 
+- 2025S — Statistics (Business Administration and European Studies)
+- 2023F–2024S — Microeconomics (Introductory undergraduate course)
 - 2022F — Business History (undergraduate)
 - 2020–2022 — Tietgen talent track (coordinator and instructor)
 - 2020F — Introduction to Business and Economic History (teaching assistant)
