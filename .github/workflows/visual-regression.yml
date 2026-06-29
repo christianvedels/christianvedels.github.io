@@ -36,6 +36,7 @@ on:
 
 jobs:
   visual-regression:
+    if: ${{ hashFiles('test/visual/playwright.config.js') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
