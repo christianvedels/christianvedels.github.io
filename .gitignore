@@ -11,7 +11,9 @@ _site
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
 al-folio-upgrade-report.md
+not-public/
 node_modules/
 output/playwright/
 test-results/
 vendor
+_bibliography/*.tmp.*

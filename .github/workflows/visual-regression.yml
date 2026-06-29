@@ -36,6 +36,7 @@ on:
 
 jobs:
   visual-regression:
+    if: ${{ hashFiles('test/visual/playwright.config.js') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -59,9 +60,9 @@ jobs:
       - name: Install JS deps 📦
         run: npm ci
 
-      - name: Prepare baseline worktree (v0.16.3) 🧱
+      - name: Prepare baseline worktree (origin/main) 🧱
         run: |
-          git worktree add ../al-folio-baseline v0.16.3
+          git worktree add ../al-folio-baseline origin/main
           (cd ../al-folio-baseline && bundle install && npm ci)
 
       - name: Install Jupyter + ImageMagick runtime deps 🧰

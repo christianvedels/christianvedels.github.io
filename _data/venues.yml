@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+"Pub":
+  color: "#009f36"
+
+"WP":
+  color: "#0076df"
+
+"WIP":
+  color: "#9a6700"
+
+"Funded":
+  color: "#b8860b"

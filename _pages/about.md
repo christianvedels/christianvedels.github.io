@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Assistant Professor, <a href='https://www.sdu.dk/en/forskning/hedg'>HEDG</a>, Department of Economics, University of Southern Denmark.
 
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -27,8 +27,26 @@ latest_posts:
   limit: 3
 ---
 
-I am an Assistant Professor at the Historical Economics and Development Group (HEDG) at the University of Southern Denmark. I study how geography and institutions shape living conditions, using causal inference and machine learning with historical georeferenced data.
+I am an Assistant Professor in economic history at the University of Southern Denmark, on a fixed-term, non-tenure-track contract. I am **currently on the job market** and open to positions worldwide.
 
-My research combines economic history with modern data science methods — including natural language processing and spatial analysis — to answer long-run questions about development, market access, and occupational structure.
+I am interested in expanding our knowledge of how geography and institutions shape living conditions. I build machine learning tools and large-scale historical datasets to recover lost economic measurements from the past, using causal inference and machine learning on large amounts of historical georeferenced data.
 
-I was awarded the **New Researcher Prize** by the Economic History Society in 2023.
+In 2023, I received the **New Researcher Prize** from the Economic History Society for my paper _A Perfect Storm_.
+
+→ [Research statement](/blog/2026/research-statement/)
+
+<script>
+  // Relabel "Code" buttons as "GitHub" in the selected-publications list.
+  (function () {
+    function relabel() {
+      document.querySelectorAll(".links a").forEach(function (a) {
+        if (a.textContent.trim() === "Code") a.textContent = "GitHub";
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", relabel);
+    } else {
+      relabel();
+    }
+  })();
+</script>

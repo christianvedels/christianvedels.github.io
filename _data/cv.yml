@@ -1,189 +1,172 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  name: Christian Vedel
+  label: Assistant Professor of Economics (fixed-term, non-tenure-track)
+  email: christian-vs@sam.sdu.dk
+  website: https://christianvedels.github.io
+  summary: >-
+    What drives all of my research is a simple premise: much of what we know
+    about the economic cosmos is limited by what we can measure. I build machine
+    learning tools and large-scale historical datasets to recover economic
+    measurements from the past, and combine them with causal inference methods
+    to study how geography and institutions shape prosperity. The ultimate aim
+    is to use the vastness of history to give policy makers better maps of what
+    can be changed, what cannot, and where the limits of policy lie. **Keywords:**
+    Economic history, economic development, causal inference, machine learning,
+    economic geography, large-scale historical data.
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Department of Economics, University of Southern Denmark
+    city: Odense
+    region: Denmark
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
+    # Academic positions (rendered first, under the "Experience" heading)
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - position: Assistant Professor
+        company: University of Southern Denmark
+        location: Odense, Denmark
+        start_date: "2023"
+        end_date: "2027"
+        summary: "Fixed-term, non-tenure-track appointment. Department of Economics, Historical Economics and Development Group (HEDG)."
+
+      - position: External Lecturer
+        company: University of Copenhagen
+        start_date: "2024"
+        summary: "Summer School in European Economic History, Department of Economics."
+
+      - position: Student Research Assistant
+        company: University of Southern Denmark
+        start_date: "2018"
+        end_date: "2019"
+        summary: "Department of Economics."
+
+      - position: Teaching Assistant
+        company: University of Southern Denmark
+        start_date: "2017"
+        end_date: "2017"
+        summary: "Department of Economics."
+
+    Education:
+      - studyType: PhD in Economics
+        institution: University of Southern Denmark
+        area: "Thesis: Natural Experiments in Geography and Institutions — Essays in the Economic History of Denmark"
+        start_date: "2020"
+        end_date: "2023"
         highlights:
-          - Relativity
-          - Description 2.
+          - "Main advisor: Paul Sharp"
+          - "Co-advisors: Christian Møller Dahl, Casper Worm Hansen"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - studyType: Visiting Research Student
+        institution: London School of Economics
+        area: "Department of Economic History (Jan 17 – May 31, 2022)"
+        start_date: "2022"
+        end_date: "2022"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Host: Prof. Max Schulze"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - studyType: BSc and MSc in Economics
+        institution: University of Southern Denmark
+        start_date: "2015"
+        end_date: "2021"
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - studyType: International Baccalaureate Diploma Programme (IBDP)
+        institution: Nyborg Gymnasium
+        start_date: "2010"
+        end_date: "2013"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "Holy cows and spilled milk: The impact of religious missions on firm-level productivity"
+        publisher: "Journal of Development Economics, 179, 103651"
+        date: "2026"
+        url: https://doi.org/10.1016/j.jdeveco.2025.103651
+        summary: "Bentzen, J. S., Boberg-Fazlić, N., Sharp, P., Skovsgaard, C. V., & Vedel, C."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "Ireland in a Danish mirror: A microlevel comparison of the productivity of Danish and Irish creameries before the First World War"
+        publisher: "Business History, 68(3), 596–612"
+        date: "2026"
+        url: https://doi.org/10.1080/00076791.2025.2486643
+        summary: "McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Adaptability, diversification, and energy shocks: A firm level productivity analysis"
+        publisher: "Energy Economics, 139, 107887"
+        date: "2024"
+        url: https://doi.org/10.1016/j.eneco.2024.107887
+        summary: "Henriques, S. T., Sharp, P., Tsoukli, X., & Vedel, C."
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "A Microlevel Analysis of Danish Dairy Cooperatives: Opportunities for Large Data in Business History"
+        publisher: "Enterprise & Society, 1–29"
+        date: "2023"
+        url: https://doi.org/10.1017/eso.2023.5
+        summary: "Sharp, P., Henriques, S., McLaughlin, E., Tsoukli, X., & Vedel, C."
+
+      - title: "A Firm Level Database of Irish Creameries, 1897–1921"
+        publisher: "Irish Economic and Social History"
+        date: "2023"
+        url: https://doi.org/10.1177/03324893231161927
+        summary: "McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C."
+
+    Working Papers:
+      - bullet: "Vedel, C. (2024; latest version 2026). **A Perfect Storm: First-Nature Geography and Economic Development.** EHES Working Paper 262. [arxiv.org/abs/2408.00885](https://arxiv.org/abs/2408.00885). *Winner of the Economic History Society's 2023 New Researcher Prize.* **(Job Market Paper)**"
+      - bullet: "Dahl, C. M., Johansen, T., & Vedel, C. (2024; latest version 2026). **Breaking the HISCO Barrier: Automatic Occupational Standardization with OccCANINE.** EHES Working Paper 255. [arxiv.org/abs/2402.13604](https://arxiv.org/abs/2402.13604)."
+      - bullet: "Görges, T., Rove, M. Ø., Sharp, P., & Vedel, C. (2025). **Tracks to Modernity: Railroads, Growth, and Social Movements in Denmark.** Revise and resubmit, *European Review of Economic History*. [arxiv.org/abs/2502.21141](https://arxiv.org/abs/2502.21141)."
+      - bullet: "Aaskoven, L., & Vedel, C. (2026). **Physical Memories of the Past and Support for the Far-Right: Evidence from Inter-War Denmark.** EHES Working Paper 295. [ehes.org/wp/EHES_295.pdf](https://ehes.org/wp/EHES_295.pdf)."
+      - bullet: "McLaughlin, E., Sharp, P., Skovsgaard, C. V., & Vedel, C. (2024). **Milk Wars: Cooperation, Contestation, Conflict and the Irish War of Independence.** EHES Working Paper 272. [ehes.org/wp/EHES_272.pdf](https://www.ehes.org/wp/EHES_272.pdf)."
+      - bullet: "Bentzen, J. S., Boberg-Fazlić, N., Sharp, P., Skovsgaard, C. V., & Vedel, C. (2024). **Assimilate for God: The Impact of Religious Divisions on Danish American Communities.** EHES Working Paper 253. [ehes.org/wp/EHES_253.pdf](https://www.ehes.org/wp/EHES_253.pdf)."
+
+    Other Publications:
+      - bullet: "Vedel, C. (2023). *Natural Experiments in Geography and Institutions: Essays in the Economic History of Denmark.* [Ph.D. thesis, University of Southern Denmark]. [doi.org/10.21996/jt34-zc23](https://doi.org/10.21996/jt34-zc23)."
+      - bullet: "Vedel, C. (2025). Review of *Danish Capitalism in the 20th Century: A Business History of an Innovistic Mixed Economy*, by Stefan Kirkegaard Sløk-Madsen. *Scandinavian Economic History Review*, 73(2), 160–162."
+      - bullet: "Vedel, C. (2022). Trap Denmark: Tønder, Aabenraa, Sønderborg (vol. 17). *Scandinavian Economic History Review*. [doi.org/10.1080/03585522.2021.2013315](https://doi.org/10.1080/03585522.2021.2013315)."
+      - bullet: "Vedel, C. (2022). A very natural experiment: using nature to measure how infrastructure produces growth. *LSE Economic History Blog.* [blogs.lse.ac.uk/economichistory](https://blogs.lse.ac.uk/economichistory/2022/05/26/a-very-natural-experiment-using-nature-to-measure-how-infrastructure-produces-growth/)."
+
+    Funding & Prizes:
+      - bullet: "**2027–2030 — Danish Independent Research Fund (DFF-Forskningsprojekt2): 6,114,741 DKK.** *Denmark's Path to Economic Development: Structural Transformation, Free-Market Trade, and Migration from 1790 to Today.* PI: Casper Worm Hansen. Named project participant."
+      - bullet: "**2023 — New Researcher Prize.** Awarded at the Economic History Society's Annual Conference."
+      - bullet: "**2022 — Augustinusfonden: 15,000 DKK (€2,016).** Towards research stay at the London School of Economics."
+
+    Teaching:
+      - bullet: "*S = Spring semester, F = Fall semester.*"
+      - bullet: "**2026S — Statistics.** Course coordinator and lecturer. Introductory statistics for undergraduate Economics students. Open-source material: [github.com/christianvedels/Introductory_statistics](https://github.com/christianvedels/Introductory_statistics)."
+      - bullet: "**2024–2026 — The Economic History of Europe.** Summer school, University of Copenhagen."
+      - bullet: "**2023F–2025F — News and Market Sentiment Analysis.** Lecturer. Natural language processing for the Data Science Master's programme. Open-source material: [github.com/christianvedels/News_and_Market_Sentiment_Analytics](https://github.com/christianvedels/News_and_Market_Sentiment_Analytics)."
+      - bullet: "**2025S — Statistics.** Lecturer. Introductory statistics for undergraduate Business Administration and European Studies students."
+      - bullet: "**2023F–2024S — Microeconomics.** Lecturer. Introductory microeconomics for business students."
+      - bullet: "**2022F — Business History.** Lecturer with Elena Korchmina."
+      - bullet: "**2020–2022 — Tietgen talent track.** Coordinated the programme and taught everything from basic economic theory to the latest research and basic statistics for high-school students."
+      - bullet: "**2020F — Introduction to Business and Economic History (undergraduate).** Teaching assistant (partly online due to COVID)."
+      - bullet: "**2020–2021 — Regression Analysis (undergraduate).** Guest lecturer for one week in both years; taught an introduction to the R programming language."
+      - bullet: "**2020S — Econometrics II (undergraduate).** Teaching assistant (partly online due to COVID)."
+      - bullet: "**2017F — Macroeconomics (undergraduate).** Teaching assistant."
+
+    Supervision:
+      - bullet: "**PhD students:** Co-supervisor of Maret Anne Grapengeter (2024–2027, University of Oslo)."
+      - bullet: "**Master thesis (Economics), 2025:** Lea Lundberg Yssing, Sharmin Ather Keya."
+      - bullet: "**Master thesis (Mathematical Economics), 2026:** Katrine Enghoff Olsen, Lajza Prekazi."
+      - bullet: "**Master thesis (Data Science):** Frederikke Buchsti Hermansen, Christoffer Johan Meilby Nobel, Rune Dissing Bjerring (2026); Lukas Rask Svendsen (2025)."
+
+    Presentations:
+      - bullet: "**2026:** Social Science History Association (Atlanta); Computational Economic History workshop (CSH Vienna); Big Data and Machine Learning in Economic History (Uppsala); Economic History Society Centenary Conference (London); CEPR Workshop (Copenhagen); Public Lecture, Society of Transport Economics (Copenhagen)."
+      - bullet: "**2025:** Social Science History Association (Chicago); LEAP Workshop on Economic History in the Age of AI (Stellenbosch); Swedish Economic History Meeting / SSEHS Conference (Umeå); ENCHOS (Cracow); European Society of Historical Demography Conference (Bologna)."
+      - bullet: "**2024:** 2nd Norwegian Winter Games (Oslo); Machine Learning workshop, Dept. of Economic History (Lund); 13th Annual Growth Workshop, HEDG (Odense); Economic History Society Annual Conference (Newcastle); 3rd Danish Historical Political Economy Workshop (Odense); CITP Conference (Nottingham); Advanced Methods Workshop (Lyon); Danish Econometrics Society (Sandbjerg)."
+      - bullet: "**2023:** Seminar, Dept. of Economic History (Lund); 12th Annual Growth Workshop, HEDG (Odense); Economic History Society Annual Conference (Warwick); PhD seminar (Odense); End-of-semester workshop (Copenhagen); 9th World Cliometrics Conference; 4th SSEHS Conference (Lund); ENCHOS Conference (Linz); 9th Danish Society of Economic and Social History (Copenhagen)."
+      - bullet: "**2022:** XIX World Economic History Congress (Paris); EHES Conference (Groningen); LSE Graduate Economic History Seminar (London); 11th Annual Growth Workshop, HEDG (Odense); 3rd Scandinavian Meeting for Economic and Social History (Odense); HEDG Miniworkshop for Young Scholars (Odense)."
+      - bullet: "**2020–2021:** Agricliometrics IV (UC3M Madrid); HEDG Miniworkshop for Young Scholars; DGPE Annual Meeting; PhD seminars, Dept. of Economics (SDU, Odense)."
+
+    Academic Service:
+      - bullet: "**Refereeing:** *Review of Economics and Statistics*; *Scandinavian Economic History Review*; *Demographic Research*; *Digital Scholarship in the Humanities*; Programme Committee of the International Conference on Natural Language and Speech Processing (ICNLSP)."
+      - bullet: "**Community:** Editor, EHES Working Paper Series (European Historical Economics Society); Board member, Danish Society for Economic and Social History."
+      - bullet: "**Organisation:** Co-organiser, Annual Workshop on Growth, History and Development (HEDG); co-organiser of the Policy Event (2025, 2026)."
+
+    Non-academic Employment:
+      - bullet: "**2019–2020 — Number Crunch, Odense.** My own small data consulting firm."
+      - bullet: "**2018–2019 — Municipality of Copenhagen.** Student assistant, data and analysis, health and care administration."
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
+      - name: Danish
+        summary: "Fluent (native)"
       - name: English
         summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Norwegian
+        summary: "Basic"
+      - name: Swedish
+        summary: "Basic"
