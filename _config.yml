@@ -217,6 +217,7 @@ exclude:
   - FAQ.md
   - Gemfile
   - Gemfile.lock
+  - scripts/
   - INSTALL.md
   - LICENSE
   - lighthouse_results/

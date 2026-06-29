@@ -1,7 +1,7 @@
 {
   "scripts": {
     "lint:prettier": "prettier . --check",
-    "lint:style-contract": "node -e \"const fs=require('node:fs'); const p='test/style_contract.js'; if (fs.existsSync(p)) require('./' + p); else console.log('No test/style_contract.js found; skipping.');\"",
+    "lint:style-contract": "node scripts/lint-style-contract.js",
     "test:visual": "playwright test --config test/visual/playwright.config.js",
     "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots"
   },
