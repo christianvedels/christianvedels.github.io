@@ -15,4 +15,4 @@ CHAOS takes HISCO occupational codes — the output of OccCANINE — and maps th
 
 CHAOS is a direct input to the Copenhagen Income project and Parish Tax project.
 
-*With co-authors.*
+_With co-authors._

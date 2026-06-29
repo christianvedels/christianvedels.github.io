@@ -11,6 +11,6 @@ stage: "Working papers"
 
 Religious identity is a powerful organizer of social life — but does it shape economic integration and assimilation? This paper uses large-scale historical census data to estimate the effect of religious divisions on assimilation outcomes, using the geographic distribution of denominations across communities as a source of quasi-experimental variation.
 
-The paper is part of the *Conflict and Development* project, which examines how historical religious and ethnic divisions shape long-run economic and social outcomes.
+The paper is part of the _Conflict and Development_ project, which examines how historical religious and ethnic divisions shape long-run economic and social outcomes.
 
-*With co-authors.*
+_With co-authors._

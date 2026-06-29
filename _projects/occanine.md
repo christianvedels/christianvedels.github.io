@@ -8,7 +8,7 @@ stage: "Working papers"
 related_publications: true
 ---
 
-**Status:** Under review at *Explorations in Economic History* · 204+ HuggingFace downloads/month
+**Status:** Under review at _Explorations in Economic History_ · 204+ HuggingFace downloads/month
 
 Linking individuals across historical censuses and tax records requires standardized occupational categories. The standard scheme — HISCO — is assigned manually by experts, making large-scale application prohibitively slow. OccCANINE automates this.
 
@@ -18,4 +18,4 @@ OccCANINE has been adopted by researchers across economics, economic history, an
 
 **Links:** [Working paper (arXiv)](https://arxiv.org/abs/2402.13604) · [GitHub](https://github.com/christianvedels/OccCANINE) · [HuggingFace model](https://huggingface.co/christianvedels/OccCANINE)
 
-*With Christian Møller Dahl and Torben Johansen.*
+_With Christian Møller Dahl and Torben Johansen._

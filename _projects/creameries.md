@@ -15,4 +15,4 @@ One paper examines how **religious divisions** shaped cooperative formation and 
 
 Together, the papers show how institutions, geography, and energy jointly determined the trajectory of early agricultural industrialization.
 
-*With co-authors.*
+_With co-authors._

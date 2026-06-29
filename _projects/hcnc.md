@@ -13,4 +13,4 @@ The Nordic countries hold some of the richest historical administrative data in 
 
 The result is a data infrastructure for comparative research on human capital, labor markets, and structural change across the Nordic region.
 
-*Collaborative project.*
+_Collaborative project._

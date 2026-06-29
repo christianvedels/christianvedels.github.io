@@ -15,4 +15,4 @@ The Copenhagen Income project applies the full measurement stack — large-scale
 
 The project answers questions about inequality, regional convergence, and economic geography, while demonstrating what becomes possible when the measurement infrastructure is in place.
 
-*External obligation: links owed to Casper Worm Hansen.*
+_External obligation: links owed to Casper Worm Hansen._
