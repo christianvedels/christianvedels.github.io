@@ -13,6 +13,7 @@ All gems are installed under the system Ruby. If `Gemfile` changes, re-run `bund
 with the PATH below set first.
 
 Known disabled features (not installed locally):
+
 - **ImageMagick** — `imagemagick.enabled: false` in `_config.yml` (WebP generation skipped)
 - **Jupyter** — sample `.ipynb` removed; do not add notebooks without installing `jupyter`
 
@@ -35,6 +36,7 @@ tail -5 /tmp/jekyll.log
 ```
 
 Expected output when ready:
+
 ```
 LiveReload address: http://127.0.0.1:35729
     Server address: http://127.0.0.1:4000/

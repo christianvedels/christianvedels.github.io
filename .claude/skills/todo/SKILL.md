@@ -18,11 +18,13 @@ When invoked as `/todo <something>`:
 
 1. **Do NOT act on the task.** Just record it. (If the user clearly wants it done now, confirm first — the whole point of `/todo` is deferral.)
 2. If `TODO.md` does not exist, create it with this header:
+
    ```markdown
    # TODO
 
    Scratch backlog for the website. Gitignored — local only.
    ```
+
 3. Append the item as an unchecked checkbox with the date, e.g.:
    ```markdown
    - [ ] 2026-06-27 — <something>

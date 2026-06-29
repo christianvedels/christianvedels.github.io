@@ -13,4 +13,4 @@ Machine learning has entered economic history unevenly: some areas have seen gen
 
 The paper positions economic history as a natural home for ML-driven measurement (recovering unobservable historical quantities) while arguing that the hard problems of causal identification remain irreducibly human.
 
-*With co-authors.*
+_With co-authors._

@@ -11,6 +11,6 @@ stage: "Working papers"
 
 The interwar period saw far-right movements rise across much of Europe — but not equally. Denmark remained relatively resistant. This paper asks why, using variation in the presence of physical historical memories (Viking monuments, heritage sites) as a source of local identity that may crowd out or channel nationalist mobilization.
 
-The paper exploits data from *A Perfect Storm* on local economic and demographic conditions to isolate the role of cultural memory from economic grievance. It contributes to a growing literature on scope conditions: not just why far-right movements rise, but when and where they do *not*.
+The paper exploits data from _A Perfect Storm_ on local economic and demographic conditions to isolate the role of cultural memory from economic grievance. It contributes to a growing literature on scope conditions: not just why far-right movements rise, but when and where they do _not_.
 
-*With Lasse Aaskoven.*
+_With Lasse Aaskoven._

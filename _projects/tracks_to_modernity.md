@@ -7,7 +7,7 @@ category: Geography & Prosperity
 stage: "Working papers"
 ---
 
-**Status:** 2nd R&R at *Economic History Review* (received 2026-04-22)
+**Status:** 2nd R&R at _Economic History Review_ (received 2026-04-22)
 
 Railroads reshaped the economic geography of 19th-century Denmark — but did they also reshape its civic fabric? This paper uses the staggered rollout of the Danish railway network as a natural experiment to estimate causal effects on economic development and the emergence of civic institutions.
 
