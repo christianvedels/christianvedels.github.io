@@ -1,8 +1,8 @@
 cv:
   name: Christian Vedel
-  label: Assistant Professor of Economics (fixed-term, non-tenure-track)
   email: christian-vs@sam.sdu.dk
   website: https://christianvedels.github.io
+  location: "Odense, Denmark"
   summary: >-
     What drives all of my research is a simple premise: much of what we know
     about the economic cosmos is limited by what we can measure. I build machine
@@ -13,11 +13,6 @@ cv:
     can be changed, what cannot, and where the limits of policy lie. **Keywords:**
     Economic history, economic development, causal inference, machine learning,
     economic geography, large-scale historical data.
-
-  address:
-    street: Department of Economics, University of Southern Denmark
-    city: Odense
-    region: Denmark
 
   sections:
     # Academic positions (rendered first, under the "Experience" heading)
@@ -47,63 +42,85 @@ cv:
         summary: "Department of Economics."
 
     Education:
-      - studyType: PhD in Economics
+      - degree: PhD in Economics
         institution: University of Southern Denmark
-        area: "Thesis: Natural Experiments in Geography and Institutions — Essays in the Economic History of Denmark"
         start_date: "2020"
         end_date: "2023"
         highlights:
+          - "Thesis: Natural Experiments in Geography and Institutions — Essays in the Economic History of Denmark"
           - "Main advisor: Paul Sharp"
           - "Co-advisors: Christian Møller Dahl, Casper Worm Hansen"
 
-      - studyType: Visiting Research Student
+      - degree: Visiting Research Student
         institution: London School of Economics
-        area: "Department of Economic History (Jan 17 – May 31, 2022)"
         start_date: "2022"
         end_date: "2022"
         highlights:
+          - "Department of Economic History (Jan 17 – May 31, 2022)"
           - "Host: Prof. Max Schulze"
 
-      - studyType: BSc and MSc in Economics
+      - degree: BSc and MSc in Economics
         institution: University of Southern Denmark
         start_date: "2015"
         end_date: "2021"
 
-      - studyType: International Baccalaureate Diploma Programme (IBDP)
+      - degree: International Baccalaureate Diploma Programme (IBDP)
         institution: Nyborg Gymnasium
         start_date: "2010"
         end_date: "2013"
 
     Publications:
       - title: "Holy cows and spilled milk: The impact of religious missions on firm-level productivity"
-        publisher: "Journal of Development Economics, 179, 103651"
+        journal: "Journal of Development Economics, 179, 103651"
         date: "2026"
         url: https://doi.org/10.1016/j.jdeveco.2025.103651
-        summary: "Bentzen, J. S., Boberg-Fazlić, N., Sharp, P., Skovsgaard, C. V., & Vedel, C."
+        authors:
+          - "Bentzen, J. S."
+          - "Boberg-Fazlić, N."
+          - "Sharp, P."
+          - "Skovsgaard, C. V."
+          - "Vedel, C."
 
       - title: "Ireland in a Danish mirror: A microlevel comparison of the productivity of Danish and Irish creameries before the First World War"
-        publisher: "Business History, 68(3), 596–612"
+        journal: "Business History, 68(3), 596–612"
         date: "2026"
         url: https://doi.org/10.1080/00076791.2025.2486643
-        summary: "McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C."
+        authors:
+          - "McLaughlin, E."
+          - "Sharp, P."
+          - "Tsoukli, X."
+          - "Vedel, C."
 
       - title: "Adaptability, diversification, and energy shocks: A firm level productivity analysis"
-        publisher: "Energy Economics, 139, 107887"
+        journal: "Energy Economics, 139, 107887"
         date: "2024"
         url: https://doi.org/10.1016/j.eneco.2024.107887
-        summary: "Henriques, S. T., Sharp, P., Tsoukli, X., & Vedel, C."
+        authors:
+          - "Henriques, S. T."
+          - "Sharp, P."
+          - "Tsoukli, X."
+          - "Vedel, C."
 
       - title: "A Microlevel Analysis of Danish Dairy Cooperatives: Opportunities for Large Data in Business History"
-        publisher: "Enterprise & Society, 1–29"
+        journal: "Enterprise & Society, 1–29"
         date: "2023"
         url: https://doi.org/10.1017/eso.2023.5
-        summary: "Sharp, P., Henriques, S., McLaughlin, E., Tsoukli, X., & Vedel, C."
+        authors:
+          - "Sharp, P."
+          - "Henriques, S."
+          - "McLaughlin, E."
+          - "Tsoukli, X."
+          - "Vedel, C."
 
       - title: "A Firm Level Database of Irish Creameries, 1897–1921"
-        publisher: "Irish Economic and Social History"
+        journal: "Irish Economic and Social History"
         date: "2023"
         url: https://doi.org/10.1177/03324893231161927
-        summary: "McLaughlin, E., Sharp, P., Tsoukli, X., & Vedel, C."
+        authors:
+          - "McLaughlin, E."
+          - "Sharp, P."
+          - "Tsoukli, X."
+          - "Vedel, C."
 
     Working Papers:
       - bullet: "Vedel, C. (2024; latest version 2026). **A Perfect Storm: First-Nature Geography and Economic Development.** EHES Working Paper 262. [arxiv.org/abs/2408.00885](https://arxiv.org/abs/2408.00885). *Winner of the Economic History Society's 2023 New Researcher Prize.* **(Job Market Paper)**"
