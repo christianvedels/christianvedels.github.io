@@ -33,6 +33,8 @@ I am interested in expanding our knowledge of how geography and institutions sha
 
 In 2023, I received the **New Researcher Prize** from the Economic History Society for my paper _A Perfect Storm_.
 
+→ [Curriculum Vitae (PDF)](/cv/cv.pdf)
+
 → [Research statement](/blog/2026/research-statement/)
 
 <script>
