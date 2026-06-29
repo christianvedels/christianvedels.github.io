@@ -11,8 +11,8 @@ S = Spring semester, F = Fall semester
 
 ## Current Teaching
 
-- **2026S** — Statistics (Intro statistics for economics undergraduates)
-- **2023F–2025F** — News and Market Sentiment Analysis (Data science master's NLP course)
+- **2026S** — Statistics (Intro statistics for economics undergraduates). Open-source slides and materials: [github.com/christianvedels/Introductory_statistics](https://github.com/christianvedels/Introductory_statistics)
+- **2023F–2025F** — News and Market Sentiment Analysis (Data science master's NLP course). Open-source slides and materials: [github.com/christianvedels/News_and_Market_Sentiment_Analytics](https://github.com/christianvedels/News_and_Market_Sentiment_Analytics)
 - **2025S** — Statistics (Business Administration and European Studies)
 - **2023F–2024S** — Microeconomics (Introductory undergraduate course)
 
