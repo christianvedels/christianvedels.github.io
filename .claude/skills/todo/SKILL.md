@@ -8,7 +8,7 @@ The user wants to jot something down to come back to **later**, NOT have it done
 
 ## File
 
-`not-public/TODO.md`: `D:/Dropbox/Research_projects/Misc/CV/Website/christianvedels.github.io/not-public/TODO.md`
+`not-public/TODO.md`
 
 It lives in the gitignored `not-public/` folder (local-only working files), so it never gets committed.
 
