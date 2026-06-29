@@ -22,7 +22,7 @@ Use the Bash tool (Git Bash) to launch in the background:
 
 ```bash
 export PATH="/c/Ruby33-x64/bin:/c/Program Files/Git/cmd:/c/Program Files/nodejs:$PATH"
-cd "D:/Dropbox/Research_projects/Misc/CV/Website/christianvedels.github.io"
+cd "$(git rev-parse --show-toplevel)"
 bundle exec jekyll serve --livereload &> /tmp/jekyll.log &
 JEKYLL_PID=$!
 ```
