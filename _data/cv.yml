@@ -124,9 +124,9 @@ cv:
 
     Working Papers:
       - bullet: "Vedel, C. (2024; latest version 2026). **A Perfect Storm: First-Nature Geography and Economic Development.** EHES Working Paper 262. [arxiv.org/abs/2408.00885](https://arxiv.org/abs/2408.00885). *Winner of the Economic History Society's 2023 New Researcher Prize.* **(Job Market Paper)**"
+      - bullet: "Johansen, T., Koschnick, J., & Vedel, C. (2026). **How to deal with machine learning bias in economic history.** [arxiv.org/abs/2606.28063](https://arxiv.org/abs/2606.28063)."
       - bullet: "Dahl, C. M., Johansen, T., & Vedel, C. (2024; latest version 2026). **Breaking the HISCO Barrier: Automatic Occupational Standardization with OccCANINE.** EHES Working Paper 255. [arxiv.org/abs/2402.13604](https://arxiv.org/abs/2402.13604)."
       - bullet: "Görges, T., Rove, M. Ø., Sharp, P., & Vedel, C. (2025). **Tracks to Modernity: Railroads, Growth, and Social Movements in Denmark.** Revise and resubmit, *European Review of Economic History*. [arxiv.org/abs/2502.21141](https://arxiv.org/abs/2502.21141)."
-      - bullet: "Johansen, T., Koschnick, J., & Vedel, C. (2026). **How to deal with machine learning bias in economic history.** [arxiv.org/abs/2606.28063](https://arxiv.org/abs/2606.28063)."
       - bullet: "Aaskoven, L., & Vedel, C. (2026). **Physical Memories of the Past and Support for the Far-Right: Evidence from Inter-War Denmark.** EHES Working Paper 295. [ehes.org/wp/EHES_295.pdf](https://ehes.org/wp/EHES_295.pdf)."
       - bullet: "McLaughlin, E., Sharp, P., Skovsgaard, C. V., & Vedel, C. (2024). **Milk Wars: Cooperation, Contestation, Conflict and the Irish War of Independence.** EHES Working Paper 272. [ehes.org/wp/EHES_272.pdf](https://www.ehes.org/wp/EHES_272.pdf)."
       - bullet: "Bentzen, J. S., Boberg-Fazlić, N., Sharp, P., Skovsgaard, C. V., & Vedel, C. (2024). **Assimilate for God: The Impact of Religious Divisions on Danish American Communities.** EHES Working Paper 253. [ehes.org/wp/EHES_253.pdf](https://www.ehes.org/wp/EHES_253.pdf)."
@@ -139,13 +139,14 @@ cv:
 
     Funding & Prizes:
       - bullet: "**2027–2030 — Danish Independent Research Fund (DFF-Forskningsprojekt2): 6,114,741 DKK.** *Denmark's Path to Economic Development: Structural Transformation, Free-Market Trade, and Migration from 1790 to Today.* PI: Casper Worm Hansen. Named project participant."
-      - bullet: "**2023 — New Researcher Prize.** Awarded at the Economic History Society's Annual Conference."
+      - bullet: "**2023 — EHS Best New Researcher Prize.** Awarded at the Economic History Society's Annual Conference."
       - bullet: "**2022 — Augustinusfonden: 15,000 DKK (€2,016).** Towards research stay at the London School of Economics."
 
     Teaching:
       - bullet: "*S = Spring semester, F = Fall semester.*"
       - bullet: "**2026S — Statistics.** Course coordinator and lecturer. Introductory statistics for undergraduate Economics students. Open-source material: [github.com/christianvedels/Introductory_statistics](https://github.com/christianvedels/Introductory_statistics)."
       - bullet: "**2024–2026 — The Economic History of Europe.** Summer school, University of Copenhagen."
+      - bullet: "**2024–2026 — Historical Perspectives on Current Economics Issues: Big Data and Applications.** HEDG PhD Summer School. Two-lecture module on machine learning for economic history, taught with Torben Johansen. Slides: [github.com/TorbenSDJohansen/hedg-summer-school](https://github.com/TorbenSDJohansen/hedg-summer-school)."
       - bullet: "**2023F–2025F — News and Market Sentiment Analysis.** Lecturer. Natural language processing for the Data Science Master's programme. Open-source material: [github.com/christianvedels/News_and_Market_Sentiment_Analytics](https://github.com/christianvedels/News_and_Market_Sentiment_Analytics)."
       - bullet: "**2025S — Statistics.** Lecturer. Introductory statistics for undergraduate Business Administration and European Studies students."
       - bullet: "**2023F–2024S — Microeconomics.** Lecturer. Introductory microeconomics for business students."
@@ -163,8 +164,8 @@ cv:
       - bullet: "**Master thesis (Data Science):** Frederikke Buchsti Hermansen, Christoffer Johan Meilby Nobel, Rune Dissing Bjerring (2026); Lukas Rask Svendsen (2025)."
 
     Presentations:
-      - bullet: "**2026:** Social Science History Association (Atlanta); Computational Economic History workshop (CSH Vienna); Big Data and Machine Learning in Economic History (Uppsala); Economic History Society Centenary Conference (London); CEPR Workshop (Copenhagen); Public Lecture, Society of Transport Economics (Copenhagen)."
-      - bullet: "**2025:** Social Science History Association (Chicago); LEAP Workshop on Economic History in the Age of AI (Stellenbosch); Swedish Economic History Meeting / SSEHS Conference (Umeå); ENCHOS (Cracow); European Society of Historical Demography Conference (Bologna)."
+      - bullet: "**2026:** Social Science History Association (Atlanta); Danish Society for Economic and Social History (SDU); Computational Economic History workshop (CSH Vienna); Big Data and Machine Learning in Economic History (Uppsala); Economic History Society Centenary Conference (London); CEPR Workshop (Copenhagen); Public Lecture, Society of Transport Economics (Copenhagen)."
+      - bullet: "**2025:** Social Science History Association (Chicago); Applied Economic Seminar Series (UCPH); LEAP Workshop on Economic History in the Age of AI (Stellenbosch); Swedish Economic History Meeting / SSEHS Conference (Umeå); ENCHOS (Cracow); European Society of Historical Demography Conference (Bologna)."
       - bullet: "**2024:** 2nd Norwegian Winter Games (Oslo); Machine Learning workshop, Dept. of Economic History (Lund); 13th Annual Growth Workshop, HEDG (Odense); Economic History Society Annual Conference (Newcastle); 3rd Danish Historical Political Economy Workshop (Odense); CITP Conference (Nottingham); Advanced Methods Workshop (Lyon); Danish Econometrics Society (Sandbjerg)."
       - bullet: "**2023:** Seminar, Dept. of Economic History (Lund); 12th Annual Growth Workshop, HEDG (Odense); Economic History Society Annual Conference (Warwick); PhD seminar (Odense); End-of-semester workshop (Copenhagen); 9th World Cliometrics Conference; 4th SSEHS Conference (Lund); ENCHOS Conference (Linz); 9th Danish Society of Economic and Social History (Copenhagen)."
       - bullet: "**2022:** XIX World Economic History Congress (Paris); EHES Conference (Groningen); LSE Graduate Economic History Seminar (London); 11th Annual Growth Workshop, HEDG (Odense); 3rd Scandinavian Meeting for Economic and Social History (Odense); HEDG Miniworkshop for Young Scholars (Odense)."
