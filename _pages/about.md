@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor, <a href='https://www.sdu.dk/en/forskning/hedg'>HEDG</a>, Department of Economics, University of Southern Denmark.
+subtitle: Assistant Professor, <a href='https://www.sdu.dk/en/hedg'>HEDG</a>, Department of Economics, University of Southern Denmark.
 
 profile:
   align: right
