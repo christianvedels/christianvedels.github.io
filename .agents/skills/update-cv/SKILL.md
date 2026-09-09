@@ -23,6 +23,13 @@ A CV change must land in **every** place the CV lives, or the website and the do
    - New **course** → also `_pages/teaching.md`.
 4. **Rebuild and verify** — start the dev server (see the `run` skill), confirm `/cv/` renders the change, and `/research/` if `papers.bib` changed.
 5. **Commit** on `main` (the working + deploy branch). Push only when the user explicitly asks — see the `website-dev-branch` memory.
+6. **After pushing, confirm it went live.** Wait for the deploy (~1–2 min), then fetch the affected page with a cache-buster and grep for what changed — don't stop at "pushed, CI will handle it":
+   ```bash
+   curl -s "https://christianvedels.github.io/cv/?cb=$RANDOM" > /tmp/live.html
+   wc -c < /tmp/live.html          # sanity: page actually loaded
+   grep -c 'machine learning bias' /tmp/live.html
+   ```
+   A zero match also happens when the page failed to load, so check the byte count and a known-good marker before trusting an absence. Report the result.
 
 ## ⚠️ ALWAYS bug the user about the PDF
 
