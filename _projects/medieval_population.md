@@ -13,4 +13,6 @@ Medieval population data is fragmentary: direct counts don't exist, and indirect
 
 The approach recovers measurements that were always implicit in the historical record but never extracted at scale. It connects to the broader agenda of using ML as a measurement tool to extend the empirical frontier of economic history into periods where data is thin.
 
-_With co-authors._
+**Links:** [Slides — Counting houses: Mapping late medieval populations using the DOMUS model](https://christianvedels.github.io/Presentations/DOMUS/Slides.html)
+
+_With Chiara Zanardello._
