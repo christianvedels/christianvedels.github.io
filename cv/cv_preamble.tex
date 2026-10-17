@@ -1,0 +1,114 @@
+
+% ----------------------------------------------------------------------
+% Packages
+% ----------------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.2cm,top=2cm,bottom=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{needspace}
+\IfFileExists{tracklang.sty}{\usepackage{datetime2}}{\providecommand{\DTMtoday}{\today}}
+
+
+% ----------------------------------------------------------------------
+% Page layout
+% ----------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\footnotesize Page \thepage{} of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ----------------------------------------------------------------------
+% Custom commands
+% ----------------------------------------------------------------------
+
+% Section heading with a horizontal rule underneath
+\newcommand{\cvsection}[1]{%
+  \vspace{15pt}%
+  \noindent{\Large #1}\par%
+  \vspace{-7pt}%
+  \noindent\rule{\linewidth}{0.6pt}\par%
+  \vspace{10pt}%
+}
+
+% A CV entry: a date / label on the left, content on the right
+\newcommand{\cvitem}[2]{%
+  \noindent\begin{minipage}[t]{0.19\linewidth}%
+    \textit{#1}%
+  \end{minipage}%
+  \begin{minipage}[t]{0.79\linewidth}%
+    \raggedright#2%
+  \end{minipage}\par%
+  \vspace{7pt}%
+}
+
+% A publication / working paper entry (hanging indent, no date column)
+\newcommand{\pubitem}[1]{%
+  \Needspace{6\baselineskip}%
+  \par\noindent\hangindent=1.2em\hangafter=1 #1\par%
+  \vspace{6pt}%
+}
+
+% Skill level indicator: filled vs. open circles, n out of 5
+\newcommand{\skilllevel}[1]{%
+  \foreach \i in {1,...,5}{%
+    \ifnum\i>#1
+      \tikz[baseline=-0.55ex]{\draw[gray,line width=0.6pt] (0,0) circle (1.4pt);}%
+    \else
+      \tikz[baseline=-0.55ex]{\fill[black] (0,0) circle (1.4pt);}%
+    \fi
+    \hspace{1pt}%
+  }%
+}
+
+% A row in the skills table
+\newcommand{\skillrow}[2]{#1 & \skilllevel{#2} \\}
+
+% For comments
+\newcommand{\co}[1]{{\color{red}\textbf{[}#1\textbf{]}}}
+
+% ----------------------------------------------------------------------
+% Photo and personal-detail toggles
+% ----------------------------------------------------------------------
+% Some applications forbid photos and personal characteristics. LSE, for
+% example: "Please do not provide details of your nationality, age or
+% other personal characteristics on your CV and/or Cover Letter."
+% Default is on. Switch off in the document with \cvphotofalse and/or
+% \cvnamenotefalse, after \input{cv_preamble}.
+
+\newif\ifcvphoto     \cvphototrue
+\newif\ifcvnamenote  \cvnamenotetrue
+
+% The photo column, or nothing at all. #1 = width of the photo column.
+\newcommand{\cvphotobox}[1]{%
+  \ifcvphoto
+    \hfill
+    \begin{minipage}[b]{#1}%
+      \raggedleft
+      \setlength{\fboxsep}{0pt}%
+      \setlength{\fboxrule}{1pt}%
+      \fbox{\includegraphics[width=\linewidth]{photo.jpg}}%
+    \end{minipage}%
+  \fi
+}
+
+% The note on the surname, or nothing at all.
+\newcommand{\cvnamenote}{%
+  \ifcvnamenote
+    {\footnotesize\textit{A note on my last name: I currently share my
+    last name `Sørensen' with 101,473 other Danes. For this reason, it is
+    not of much use as an identifier in a population of only 5.8 mil.
+    Instead, I use my middle name: `Vedel', which I share with fewer
+    people.}}%
+  \fi
+}
