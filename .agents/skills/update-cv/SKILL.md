@@ -8,7 +8,12 @@ A CV change must land in **every** place the CV lives, or the website and the do
 
 ## The three CV surfaces
 
-1. **`cv/main.tex`** — LaTeX source of the downloadable CV. **This is authoritative — edit it first.** Uses custom macros: `\cvsection{}`, `\cvitem{date}{body}`, `\pubitem{citation}`.
+1. **`cv/main.tex`** (plus `cv/cv_preamble.tex` and `cv/sections/*.tex`) — LaTeX source of the downloadable CV. Uses custom macros: `\cvsection{}`, `\cvitem{date}{body}`, `\pubitem{citation}`.
+
+   > **Upstream is Overleaf, not this repo.** Christian edits the CV in Overleaf (synced to
+   > `D:\Dropbox\Apps\Overleaf\cv (1)`); `cv/` is a copy. If the change came from Overleaf,
+   > use the **`sync-cv`** skill instead of editing here, or the next sync overwrites you.
+   > Only edit `cv/` directly for a repo-local fix, and tell him it needs porting to Overleaf.
 2. **`_data/cv.yml`** — RenderCV data driving the on-site HTML CV at `/cv/` (`_pages/cv.md` sets `cv_format: rendercv`). It must **mirror** `main.tex`. Sections are generic `bullet:` lists except Experience/Education/Publications/Languages, which are structured.
 3. **`cv/cv.pdf`** — the compiled PDF, served at `/cv/cv.pdf`. Both the download button on `/cv/` and the CV social icon point here (`cv_pdf: /cv/cv.pdf` in `_pages/cv.md` and `_data/socials.yml`). **Do NOT compile it — the user does that themselves.**
 
