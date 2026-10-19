@@ -5,17 +5,20 @@ cv:
   location: "Odense, Denmark"
 
   sections:
+    # Must be a `bullet:` entry, not a bare string: the theme's generic-section
+    # template only renders entries with a `bullet` or `label` key, so a plain
+    # string (a RenderCV TextEntry) renders the heading with an empty body.
     Research Interests:
-      - >-
-        What drives all of my research is a simple premise: much of what we know
-        about the economic cosmos is limited by what we can measure. I build machine
-        learning tools and large-scale historical datasets to recover economic
-        measurements from the past, and combine them with causal inference methods
-        to study how geography and institutions shape prosperity. The ultimate aim
-        is to use the vastness of history to give policy makers better maps of what
-        can be changed, what cannot, and where the limits of policy lie. **Keywords:**
-        Economic history, economic development, causal inference, machine learning,
-        economic geography, large-scale historical data.
+      - bullet: >-
+          What drives all of my research is a simple premise: much of what we know
+          about the economic cosmos is limited by what we can measure. I build machine
+          learning tools and large-scale historical datasets to recover economic
+          measurements from the past, and combine them with causal inference methods
+          to study how geography and institutions shape prosperity. The ultimate aim
+          is to use the vastness of history to give policy makers better maps of what
+          can be changed, what cannot, and where the limits of policy lie. **Keywords:**
+          Economic history, economic development, causal inference, machine learning,
+          economic geography, large-scale historical data.
 
     # Academic positions (rendered first, under the "Experience" heading)
     Experience:
