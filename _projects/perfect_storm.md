@@ -8,7 +8,7 @@ stage: "Working papers"
 related_publications: true
 ---
 
-**Status:** Under review (Restud reject received 2026-05-18 — selecting next target journal)
+**Status:** Under review at the _Journal of the European Economic Association_ · Job market paper · EHES Working Paper 262
 
 Geography shapes prosperity — but how much, and through what channels? This paper exploits two natural experiments in northwestern Denmark: a navigable waterway created by a major storm in 1825, and one that was closed sometime between 1086 and 1208. Together they allow clean identification of the causal effect of market access on long-run economic development.
 
