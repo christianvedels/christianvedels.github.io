@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Tracks to Modernity
-description: How railway expansion shaped economic development and civic institutions in 19th-century Denmark. Second R&R at Economic History Review.
+description: How railway expansion shaped economic development and civic institutions in 19th-century Denmark. Forthcoming in the European Review of Economic History.
 importance: 2
 category: Geography & Prosperity
-stage: "Working papers"
+stage: "Publications"
 ---
 
-**Status:** 2nd R&R at _Economic History Review_ (received 2026-04-22)
+**Status:** Forthcoming in the _European Review of Economic History_ (accepted 2026-10-27)
+
+**Published as:** _Tracks to Modernity: Railroads, Growth, and Civic Institutions in Denmark_ ([arxiv.org/abs/2502.21141](https://arxiv.org/abs/2502.21141))
 
 Railroads reshaped the economic geography of 19th-century Denmark — but did they also reshape its civic fabric? This paper uses the staggered rollout of the Danish railway network as a natural experiment to estimate causal effects on economic development and the emergence of civic institutions.
 

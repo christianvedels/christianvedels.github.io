@@ -25,7 +25,7 @@ Where this is going is toward bigger data and longer horizons. The Copenhagen Ta
 
 [^3]: [CHAOS: Converting Historical Accounts into Occupational Scores](https://christianvedels.github.io/Presentations/CHAOS/Slides_CC.html) (slides) — with Matthew Curtis, Torben Johansen, and Julius Koschnick.
 
-[^4]: [Tracks to Modernity: Railroads, Growth, and Social Movements in Denmark](https://arxiv.org/abs/2502.21141) — with Tom Görges, Magnus Ørberg Rove, and Paul Sharp.
+[^4]: [Tracks to Modernity: Railroads, Growth, and Civic Institutions in Denmark](https://arxiv.org/abs/2502.21141) — with Tom Görges, Magnus Ørberg Rove, and Paul Sharp. Forthcoming in the _European Review of Economic History_.
 
 [^5]: For example [Holy cows and spilled milk](https://doi.org/10.1016/j.jdeveco.2025.103651) (_Journal of Development Economics_, 2026) — one of several papers on the Danish and Irish creameries.
 
