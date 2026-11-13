@@ -29,4 +29,4 @@ Where this is going is toward bigger data and longer horizons. The Copenhagen Ta
 
 [^5]: For example [Holy cows and spilled milk](https://doi.org/10.1016/j.jdeveco.2025.103651) (_Journal of Development Economics_, 2026) — one of several papers on the Danish and Irish creameries.
 
-[^6]: [The Copenhagen Tax Book project](https://christianvedels.github.io/Presentations/Incomes_Copenhagen/Slides.html) (slides), extending into _Denmark's Path to Economic Development_ (funded by the Independent Research Fund Denmark, 2027–2030; with Casper Worm Hansen and Asger Mose Wingender).
+[^6]: The Copenhagen Tax Book project, extending into _Denmark's Path to Economic Development_ (funded by the Independent Research Fund Denmark, 2027–2030; with Casper Worm Hansen and Asger Mose Wingender).
